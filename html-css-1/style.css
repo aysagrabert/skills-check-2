@@ -1,0 +1,109 @@
+body{
+    min-height: 155vh;
+    margin: 0px;
+    
+}
+header{
+    height: 7vh;
+    width: 100%;
+    /* position: fixed;
+    z-index: 5; */
+    background-color: gray;
+    padding: 5px 50px 5px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company{
+    font-size: 25px;
+    color: white;
+}
+.other-words{
+   font-size: 15px;
+   color: rgb(194, 193, 193);
+}
+
+.yellow-words{
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    padding: 45px 15px;
+    box-sizing: border-box;
+    
+}
+
+.three-boxes{
+    height: 35vh;
+    width: 100%;
+    /* border: 3px solid chartreuse; */
+    position: relative;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    box-sizing: border-box;
+}
+.teal-box{
+    height: 27vh;
+    width: 13vw;
+    background-color: turquoise; 
+    border-radius: 20px
+}
+
+.two-rectangles{
+    height: 37vh;
+    width: 100%;
+    /* border: 3px solid maroon; */
+    position: relative;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    box-sizing: border-box;
+}
+.orange-rectangle{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(250, 197, 98); 
+}
+
+.words-img{
+    height: 35vh;
+    width: 100%;
+    /* border: 3px solid palegreen; */
+    position: relative;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    box-sizing: border-box;
+}
+.words{
+    height: 25vh;
+    width: 25vw;
+    font-size: 18px;
+    /* border: 2px dotted purple; */
+}
+.img{
+    height: 25vh;
+    width: 25vw;
+    /* border: 2px dotted purple; */
+}
+
+footer{
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(58, 58, 88);
+    position: relative;
+}
